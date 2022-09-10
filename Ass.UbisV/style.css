@@ -22,8 +22,10 @@ header{
     
 }
 .content{
-    height: 420px;
-    width: 935px;
+    max-height: 320px;
+    min-height: 400px;
+    min-width: 480px;
+    max-width: 930px;
     border-radius: 20px;
     overflow:hidden;
     position: absolute;
@@ -115,6 +117,7 @@ nav a:hover{
 }
 body{
     background-image: linear-gradient(#f2e30fa1, #f2a20cd8, #fb4d3dd8 );
+    margin: 0px;
 }
 main{
     width: 80%;
@@ -143,10 +146,10 @@ main > h1{
     
 }
 main p{
-    margin: 12px;
+    margin: 1px;
 }
 footer{
-    font-family: lobs;
+    font-family:'Times New Roman', Times, serif;
     background-color:var(--cor1);
     width: 100%;
     border-radius: 50px 50px 10px 10px;
